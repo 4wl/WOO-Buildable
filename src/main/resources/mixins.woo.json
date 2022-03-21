@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "wtf.cattyn.woo.mixin.mixins",
+  "refmap": "mixins.woo.refmap.json",
+  "mixins": [
+    "IEntity",
+    "MixinRenderGlobal",
+    "MixinRenderEnderCrystal",
+    "MixinRenderLivingBase",
+	"MixinNetworkManager",
+    "MixinCPacketUseEntity",
+    "MixinAbstractClientPlayer",
+    "MixinPlayerControllerMP",
+    "MixinFontRenderer",
+	"MixinEntityPlayerSP"
+  ],
+  "client": []
+}
